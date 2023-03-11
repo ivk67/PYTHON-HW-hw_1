@@ -16,6 +16,6 @@ for i in range(6):
     else:
         sum_left  += a // 10**i % 10 
 if sum_left == sum_right:
-    print('yes')
+    print(f"{a} --> yes")
 else:
-    print('no') 
+    print(f"{a} --> no")
